@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "react-native-base",
+    "slug": "react-native-base",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./.expo-shared/assets/icon.png",
+    "splash": {
+      "image": "./.expo-shared/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./.expo-shared/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./.expo-shared/assets/favicon.png"
+    },
+  }
+}
