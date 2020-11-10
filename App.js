@@ -1,7 +1,7 @@
 // External Modules
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 // Internal Modules
 import Example from './src/screens/Example/Example';
