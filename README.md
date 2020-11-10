@@ -12,8 +12,10 @@
 <p align="center">
   <!-- React Native -->
   <img alt="React Native Version" longdesc="React Version" src="https://img.shields.io/badge/react--native-v0.6-61DBFB" />
-  <!-- Webpack -->
-  <img alt="Expo Version" longdesc="Expo Version" src="https://img.shields.io/badge/expo--sdk-v39.0.4-4630EB" />
+  <!-- Expo
+  <img alt="Expo Version" longdesc="Expo Version" src="https://img.shields.io/badge/expo-v39.0.4-4630EB" />
+  -->
+  <img alt="Expo SDK Version" longdesc="Expo SDK Version" src="https://img.shields.io/badge/expo--sdk-v39.0.4-4630EB" />
   <!-- React Redux -->
   <img alt="Redux Version" longdesc="Redux Version" src="https://img.shields.io/badge/react--redux-v7.2-764abc" />
 </p>
@@ -39,10 +41,30 @@ yarn install
 
 ## Develop instructions
 
-- Run build command:
+- Run the best suited build command:
+
+Start the full bundler, both do the same
 
 ```sh
 expo start
+```
+
+```sh
+yarn start
+```
+
+Device specific
+
+```sh
+yarn android
+```
+
+```sh
+yarn ios
+```
+
+```sh
+yarn web
 ```
 
 ## Git Guidelines
@@ -55,7 +77,7 @@ Master branch is a mirror of production. The only person allowed to merge into m
 
 Dev is the main branch used for development. This is where all the team’s work meet before merging into master, so everything here must be production-ready before merging into master.
 
-You can use dev branch to develop and push your work there. Alternatively, using a personal branch is advised, especially if you are working on a patch or a feature outside the current sprint.
+You should create a branch using a unique task ID from JIRA. After your changes are done, you should create a merge request from your task ID branch into develop.
 
 ### Committing
 
